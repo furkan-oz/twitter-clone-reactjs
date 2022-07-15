@@ -1,0 +1,88 @@
+.leftSideBar{
+    margin-left: 28px;
+    margin-top: 5px;
+    position: sticky;
+    top: 5px;
+}
+.twitterIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    margin:0 0 5px 0;
+    background-color: white;
+}
+.twitterIcon:hover{
+    background-color:rgba(29, 155, 240, 0.1);
+    cursor: pointer;
+}
+.twitterIcon svg{
+    width: 30px;
+    margin-top: 10px;
+    fill: #1d9bf0;
+}
+.nav-item{
+    margin-top: 4px;
+}
+.nav-item-div{
+    padding: 12px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.nav-item-div:hover{
+    background-color: rgba(15, 20, 25, 0.1);
+    cursor: pointer;
+}
+.nav-icon{
+    width: 25px;
+    display: inline-block;
+}
+.nav-text{
+    display:inline-block;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+}
+.tweetButton{
+    margin: 20px 0 0 5px;
+}
+
+.profile-item{
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 92%;
+}
+.profile-item:hover{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+.profile{
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.profilePhoto{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://pbs.twimg.com/profile_images/1491040091413823488/Hn1NBVdm_400x400.jpg");
+    background-size: cover;
+    border-radius: 100px;
+}
+.profileInfo{
+    display: flex;
+	flex-direction: column;
+    margin-left: 10px;
+    margin-right: 70px;
+    
+}
+.profileName{
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.profileNickName{
+    width: 100px;
+    font-size: 15px;
+    color: #536471;
+
+}
