@@ -1,0 +1,8 @@
+.WhoFollow{
+    background-color: #f7f9f9;
+    border-radius: 16px;
+    width: 84%;
+    margin:12px auto;
+    display: flex;
+    flex-direction: column;
+}
