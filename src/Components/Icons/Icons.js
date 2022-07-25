@@ -6,6 +6,8 @@ import BookmarksIcon from "./BookmarksIcon";
 import ListsIcon from "./ListsIcon";
 import ProfileIcon from "./ProfileIcon";
 import MoreIcon from "./MoreIcon";
+import SearchIcon from "./SearchIcon";
+import NoCircleMoreIcon from "./NoCircleMoreIcon";
 
 const Icons = (props) => {
 
@@ -27,17 +29,13 @@ const Icons = (props) => {
             return <ProfileIcon active={false}/>
         case 'more':
             return <MoreIcon/>
-          
+        case 'search':
+            return <SearchIcon/>
+        case 'noCircleMore':
+            return <NoCircleMoreIcon/>
         default:
             return null
         }
             
 }
 export default Icons;
-
-
-/* if(props.iconName === "home"){
-    return(
-        <HomeIcon active={true}/>
-    )
-} */
