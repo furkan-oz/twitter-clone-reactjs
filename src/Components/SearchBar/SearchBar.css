@@ -1,0 +1,32 @@
+.SearchBarItem{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    padding: 1px 0px 1px 0px;
+    padding-bottom: 1px;
+    background-color: #ffff;
+}
+.SearchBar{
+    background-color: #eff3f4;
+    display: flex;
+    flex-direction: row;
+    width: 84%;
+    padding: 9px;
+    margin:5px auto;
+    border-radius: 100px;
+    outline: #536471;
+}
+.SearchIcon{
+    width: 20px;
+    fill: #536471;
+    margin: 0 12px 0 12px;
+}
+.SearchBarInput{
+    width: 100%;
+}
+input{
+    border:none;
+    outline: none;
+    width:100%;
+    background-color:#eff3f4 ;
+}
