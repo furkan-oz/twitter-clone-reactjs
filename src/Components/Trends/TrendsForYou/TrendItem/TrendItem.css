@@ -1,0 +1,42 @@
+.TrendItem{
+    padding: 12px 16px;
+    cursor: pointer;
+    position: relative;
+}
+.TrendItem:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.TextItem{
+    display: flex;
+    flex-direction: column;
+}
+.AboutItem{
+    color: #536471;
+    font-size: 13px;
+}
+.NameItem{
+    font-size: 15px;
+    color: #0f1419;
+    font-weight: bold;
+}
+.TweetCount{
+    font-size: 13px;
+    color: #536471;
+}
+.IconItem{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.IconItem:hover{
+    fill: #1d9bf0;
+    background-color: rgba(29, 155, 240, 0.10);
+}
+.MoreIcon{
+    width: 20px;
+    margin: auto;
+}
