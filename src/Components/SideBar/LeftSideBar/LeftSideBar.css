@@ -1,8 +1,10 @@
-.leftSideBar{
+.nav{
     margin-left: 28px;
     margin-top: 5px;
+    flex-direction: column;
     position: sticky;
     top: 5px;
+    min-height: 100vh;
 }
 .twitterIcon{
     width: 50px;
@@ -25,19 +27,21 @@
     margin: 20px 0 0 5px;
 }
 .profile-item{
-    height: 70px;
+    height: 65px;
     border-radius: 100px;
-    margin-top: 92%;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 .profile-item:hover{
     background-color: rgba(15, 20, 25, 0.1);
+    cursor: pointer;
 }
 .profile{
     display: flex;
 	flex-direction: row;
     align-items: center;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .profilePhoto{
     width: 40px;
