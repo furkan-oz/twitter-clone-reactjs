@@ -1,0 +1,18 @@
+.footer{
+    width: 75%;
+    margin:12px auto;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-start !important;
+}
+.navbar-item{
+    font-size: 13px;
+    line-height: 16px;
+    padding-right: 12px;
+    color: #536471;
+}
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
