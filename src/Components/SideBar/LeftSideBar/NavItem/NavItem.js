@@ -3,12 +3,12 @@ import "./NavItem.css"
 
 const NavItem = (props) => {
   return (
-    <div className="nav-item">
-      <div className="nav-item-div">
-        <div className="nav-icon">
+    <div>
+      <div className="nav-item d-inline-block rounded-pill p-2 m-1">
+        <div className="nav-icon d-inline-block">
           <Icons iconName={props.itemIcon}/>
         </div>
-        <div className="nav-text align-middle">{props.itemText}</div>
+        <div className="d-inline fs-5 mx-4 align-middle">{props.itemText}</div>
       </div>
     </div>
   );

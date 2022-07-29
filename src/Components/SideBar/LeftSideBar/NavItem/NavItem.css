@@ -1,24 +1,7 @@
-.nav-item{
-    margin-top: 4px;
-}
-.nav-item-div{
-    padding: 12px;
-    border-radius: 100px;
-    display: inline-block;
-}
-.nav-item-div:hover{
+.nav-item:hover{
     background-color: rgba(15, 20, 25, 0.1);
     cursor: pointer;
 }
-.active{
-    font-weight: bold;
-}
 .nav-icon{
     width: 25px;
-    display: inline-block;
-}
-.nav-text{
-    display:inline-block;
-    font-size: 20px;
-    margin: 0 20px 0 20px;
 }
