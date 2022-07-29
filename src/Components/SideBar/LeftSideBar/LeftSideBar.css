@@ -1,70 +1,29 @@
-.nav{
-    margin-left: 28px;
-    margin-top: 5px;
-    flex-direction: column;
-    position: sticky;
-    top: 5px;
-    min-height: 100vh;
-}
-.twitterIcon{
+.twitter-icon{
     width: 50px;
     height: 50px;
-    border-radius: 100px;
-    text-align: center;
-    margin:0 0 5px 0;
-    background-color: white;
 }
-.twitterIcon:hover{
+.twitter-icon:hover{
     background-color:rgba(29, 155, 240, 0.1);
     cursor: pointer;
 }
-.twitterIcon svg{
+.twitter-icon svg{
     width: 30px;
-    margin-top: 10px;
     fill: #1d9bf0;
 }
-.tweetButton{
-    margin: 20px 0 0 5px;
-}
 .profile-item{
-    height: 65px;
-    border-radius: 100px;
-    margin-top: auto;
-    margin-bottom: 10px;
+    height: 62px;
 }
 .profile-item:hover{
     background-color: rgba(15, 20, 25, 0.1);
     cursor: pointer;
 }
-.profile{
-    display: flex;
-	flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.profilePhoto{
+.profile-photo{
     width: 40px;
     height: 40px;
-    background-image: url("https://pbs.twimg.com/profile_images/1491040091413823488/Hn1NBVdm_400x400.jpg");
-    background-size: cover;
-    border-radius: 100px;
 }
-.profileInfo{
-    display: flex;
-	flex-direction: column;
-    margin-left: 10px;
-    margin-right: 70px;
-    
-}
-.profileName{
-    width: 100px;
+.profile-name{
     font-size: 15px;
-    font-weight: bold;
 }
-.profileNickName{
-    width: 100px;
+.profile-nick{
     font-size: 15px;
-    color: #536471;
-
 }
