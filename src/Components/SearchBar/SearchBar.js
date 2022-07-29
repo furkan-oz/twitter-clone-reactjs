@@ -3,13 +3,13 @@ import './SearchBar.css'
 
 const SearchBar = () => {
     return (
-        <div className='SearchBarItem'>
-            <div className="SearchBar">
-                <div className="SearchIcon">
+        <div className='sticky-top top-5 pt-1 pb-1 bg-white'>
+            <div className="search-bar d-flex flex-row p-2 mt-1 mb-1 mx-auto rounded-pill bg-secondary bg-opacity-10">
+                <div className="search-icon mx-2">
                     <Icons iconName={"search"}/>
                 </div>
-                <div className="SearchBarInput">
-                    <input type="text" placeholder='Search Twitter'/>
+                <div className="w-100">
+                    <input className='w-100 border-0' type="text" placeholder='Search Twitter'/>
                 </div>
             </div>
         </div>
