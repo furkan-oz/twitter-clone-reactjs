@@ -1,46 +1,27 @@
-.WhoFollowItem{
-    display: flex;
-    align-items: center;
-    background-color:#f7f9f9 ;
-    width: 100%;
-    margin: auto;
+.who-follow-item{
     cursor: pointer;
 }
-.WhoFollowItem:hover{
+.who-follow-item:hover{
     background-color:rgba(0, 0, 0, 0.03) ;
 }
-.ProfilePhoto{
+.follow-profile-photo{
     width: 50px;
     height: 50px;
-    margin: 12px 0px 12px 16px;
 }
-.ProfilePhoto img{
+.follow-profile-photo img{
     width: 48px;
     height: 48px;
-    border-radius: 100px;
-    background-color:#1a1a1a ;
-    margin: 1px;
 }
-.ProfilePhoto img:hover{
+.follow-profile-photo img:hover{
     opacity: 0.50;
 }
-.ProfileInfo{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-}
-.ProfileName{
-    font-size: 15px;
-    font-weight: 500;
-}
-.ProfileName:hover{
+.follow-profile-name:hover{
     text-decoration:underline;
 }
-.ProfileNick{
-    color: #536471;
+.follow-profile-name{
     font-size: 15px;
 }
-.FollowButton{
-    margin-left: auto;
-    margin-right: 15px;
+.follow-profile-nick{
+    font-size: 15px;
 }
+
