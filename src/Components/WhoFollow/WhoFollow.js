@@ -4,10 +4,8 @@ import ShowMore from "../Trends/TrendsForYou/ShowMore/ShowMore";
 
 const WhoFollow = () => {
     return(
-        <div className="WhoFollow">
-            <div className="WhoFollowTitle">
-                <h2>Who to follow</h2>
-            </div>
+        <div className="who-follow d-flex flex-column bg-light mx-auto mt-2">
+            <h2 className="fs-5 fw-bold mt-3 mb-3 ms-3">Who to follow</h2>
             <WhoFollowItem/>
             <WhoFollowItem/>
             <WhoFollowItem/>
