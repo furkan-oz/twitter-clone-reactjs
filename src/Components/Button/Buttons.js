@@ -2,7 +2,7 @@ import "./Buttons.css";
 
 const Buttons = (props) => {
     return(
-        <button type="button" className={`btn ${props.buttonType}`}>{props.buttonText}</button>
+        <button type="button" className={`btn rounded-pill ${props.buttonType}`}>{props.buttonText}</button>
     )
 }
 
