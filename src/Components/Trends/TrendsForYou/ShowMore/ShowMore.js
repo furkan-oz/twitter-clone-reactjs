@@ -2,7 +2,7 @@ import './ShowMore.css'
 
 const ShowMore = () => {
     return(
-        <div className="showMore">
+        <div className="show-more p-3">
             Show More
         </div>
     )
