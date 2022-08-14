@@ -1,0 +1,61 @@
+.tweet-profile-photo{
+    width: 50px;
+    cursor: pointer;
+}
+.tweet-profile-photo img{
+    width: 48px;
+    height: 48px;
+}
+.tweet-profile-photo img:hover{
+    opacity: 0.50;
+}
+.tweet-area{
+    width: 85%;
+}
+.textarea {
+    display: block;
+    font-size: 20px;
+    min-height: 20px;
+    overflow: hidden;
+    line-height: 24px;
+    cursor: text;
+    outline: none;
+    width: 100%;
+}
+.textarea[contentEditable=true]:empty::before{
+    content:"What's happening?";
+    color: gray;
+}
+.who-can-reply{
+    display: inline;
+    color: #1d9bf0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.who-can-reply:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.reply-icon{
+    width: 16px;
+    fill: #1d9bf0;
+}
+.tweet-icon-item{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.tweet-icon-item:hover{
+    background-color: rgba(29, 155, 240, 0.10);
+}
+.tweet-icon{
+    width: 20px;
+    margin: auto;
+}
+.tweet-icon svg{
+    width: 20px;
+    fill: #1d9bf0;
+}
