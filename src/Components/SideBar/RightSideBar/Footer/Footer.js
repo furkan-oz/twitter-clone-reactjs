@@ -2,7 +2,7 @@ import './Footer.css';
 
 const Footer = () => {
     return(
-        <div className="w-75 mt-3 mb-3 mx-auto">
+        <div className="footer mt-3 mb-3 mx-auto">
             <div className="navbar d-flex justify-content-start">
                 <div className="navbar-item pe-2 text-secondary link">Terms of Service</div>
                 <div className="navbar-item pe-2 text-secondary link">Privacy Policy</div>
