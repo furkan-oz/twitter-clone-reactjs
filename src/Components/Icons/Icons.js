@@ -8,6 +8,14 @@ import ProfileIcon from "./ProfileIcon";
 import MoreIcon from "./MoreIcon";
 import SearchIcon from "./SearchIcon";
 import NoCircleMoreIcon from "./NoCircleMoreIcon";
+import HomeSettingsIcon from "./HomeSettingsIcon";
+import EveryoneIcon from "./EveryoneIcon";
+import MediaIcon from "./MediaIcon";
+import GifIcon from "./GifIcon";
+import PollIcon from "./PollIcon";
+import EmoteIcon from "./EmoteIcon";
+import ScheduleIcon from "./ScheduleIcon";
+import LocationIcon from "./LocationIcon";
 
 const Icons = (props) => {
 
@@ -33,6 +41,22 @@ const Icons = (props) => {
             return <SearchIcon/>
         case 'noCircleMore':
             return <NoCircleMoreIcon/>
+        case 'homeSettings':
+            return <HomeSettingsIcon/>
+        case 'everyone':
+            return <EveryoneIcon/>
+        case 'media':
+            return <MediaIcon/>
+        case 'gif':
+            return <GifIcon/>
+        case 'poll':
+            return <PollIcon/>
+        case 'emote':
+            return <EmoteIcon/>
+        case 'schedule':
+            return <ScheduleIcon/>
+        case 'location':
+            return <LocationIcon/>
         default:
             return null
         }
