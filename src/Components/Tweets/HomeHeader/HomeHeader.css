@@ -1,0 +1,14 @@
+.home-header{
+    cursor: pointer;
+}
+.home-settings-icon{
+    height: 35px;
+    width: 35px;
+}
+.home-settings-icon:hover{
+    background-color: rgba(15, 20, 25, 0.1);
+    cursor: pointer;
+}
+.home-tweet-settings{
+    width: 20px;
+}
