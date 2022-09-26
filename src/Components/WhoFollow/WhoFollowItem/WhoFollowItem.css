@@ -13,7 +13,7 @@
     height: 48px;
 }
 .follow-profile-photo img:hover{
-    opacity: 0.50;
+    filter: brightness(0.8) grayscale(0.2) contrast(1.2);
 }
 .follow-profile-name:hover{
     text-decoration:underline;
