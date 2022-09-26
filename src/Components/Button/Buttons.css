@@ -1,4 +1,4 @@
-.sideBarTweetButton{
+.sidebar-tweet-button{
     width: 95%;
     height: 50px;
     border: none !important;
@@ -6,8 +6,18 @@
     font-weight:bold !important;
     font-size: 15px !important;
 }
-.sideBarTweetButton:hover{
+.sidebar-tweet-button:hover{
     background-color: #1a8cd8 !important;
+}
+.sidebar-small-button{
+    width: 50px;
+    height: 50px;
+    border: none !important;
+    background-color: #1d9bf0 !important;
+    font-weight:bold !important;
+    font-size: 15px !important; 
+    fill: white;
+    padding: 13px !important;
 }
 .tweet-button{
     width: 75px;
@@ -20,6 +30,17 @@
 .tweet-button:hover{
     background-color: #1a8cd8 !important;
 }
+.message-button{
+    width: 95%;
+    height: 50px;
+    border: none !important;
+    background-color: #1d9bf0 !important;
+    font-weight:bold !important;
+    font-size: 15px !important;
+}
+.message-button:hover{
+    background-color: #1a8cd8 !important;
+}
 .FollowBtn{
     background-color: #0f1419 !important;
     color: #ffffff !important;
@@ -30,4 +51,12 @@
 }
 .FollowBtn:hover{
     background-color: #272c30 !important;
+}
+.setup-profile{
+    background-color: white !important;
+    border: rgba(15, 20, 25, 0.2) solid  1px !important;
+    font-weight: 600 !important;
+}
+.setup-profile:hover{
+    background-color: rgba(15, 20, 25, 0.1) !important;
 }
