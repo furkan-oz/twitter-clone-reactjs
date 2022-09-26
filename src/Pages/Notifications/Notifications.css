@@ -1,0 +1,32 @@
+.notification-header{
+    font-size: 20px;
+}
+.notification-nav-item:hover{
+    background-color: rgba(15, 20, 25, 0.10);
+    cursor: pointer;
+}
+.is-active{
+    font-weight: bold;
+    color: black;
+    width: 50%;
+    text-decoration: none;
+}
+.not-active{
+    color: gray;
+    width: 50%;
+    text-decoration: none;
+}
+.is-active:hover{
+    color: black;
+}
+.not-active:hover{
+    color: gray;
+}
+.notification-info{
+    width: 60%;
+}
+.line{
+    background-color: #1d9bf0;
+    width: 80px;
+    height: 4px;
+}
