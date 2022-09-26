@@ -1,0 +1,13 @@
+.list-item:hover{
+    background-color: rgba(0, 0, 0 ,0.03);
+    cursor: pointer;
+}
+.list-item-image img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+.list-item-text{
+    font-size: 13px;
+    
+}
