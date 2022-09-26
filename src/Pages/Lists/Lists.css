@@ -1,0 +1,19 @@
+.lists-nickname{
+    font-size: 13px;
+}
+.list-icon-item{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.list-icon-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.list-icon{
+    width: 20px;
+    margin: auto;
+}
+.list-icon svg{
+    width: 20px;
+}
