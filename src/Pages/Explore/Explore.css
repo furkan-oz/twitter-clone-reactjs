@@ -1,0 +1,19 @@
+.settings-icon-item{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.settings-icon-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.settings-icon{
+    width: 20px;
+    margin: auto;
+}
+.settings-icon svg{
+    width: 20px;
+}
+.explore-image{
+    filter: brightness(0.8) grayscale(0.2) contrast(1.2);
+}
