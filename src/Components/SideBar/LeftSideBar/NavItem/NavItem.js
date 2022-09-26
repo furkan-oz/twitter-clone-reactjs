@@ -6,9 +6,9 @@ const NavItem = (props) => {
     <div>
       <div className="nav-item d-inline-block rounded-pill p-2 m-1">
         <div className="nav-icon d-inline-block">
-          <Icons iconName={props.itemIcon}/>
+          <Icons active={props.iconActive} iconName={props.itemIcon}/>
         </div>
-        <div className="d-inline fs-5 mx-4 align-middle">{props.itemText}</div>
+        <div className="nav-text fs-5 mx-4 align-middle">{props.itemText}</div>
       </div>
     </div>
   );

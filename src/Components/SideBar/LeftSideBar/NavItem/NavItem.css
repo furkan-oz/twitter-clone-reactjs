@@ -5,3 +5,14 @@
 .nav-icon{
     width: 25px;
 }
+.nav-text{
+    display: inline;
+}
+@media only screen and (max-width: 1200px) {
+    .nav-text {
+      display: none;
+    }
+    .nav-item {
+        width: 40px;
+    }
+  }
