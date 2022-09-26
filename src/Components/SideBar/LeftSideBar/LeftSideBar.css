@@ -10,20 +10,50 @@
     width: 30px;
     fill: #1d9bf0;
 }
-.profile-item{
+.nav-profile-item{
     height: 62px;
 }
-.profile-item:hover{
+.nav-profile-item:hover{
     background-color: rgba(15, 20, 25, 0.1);
     cursor: pointer;
 }
-.profile-photo{
+.nav-profile-photo{
     width: 40px;
     height: 40px;
 }
-.profile-name{
+.nav-profile-info{
+    display: flex;
+}
+.nav-profile-name{
     font-size: 15px;
 }
-.profile-nick{
+.nav-profile-nick{
     font-size: 15px;
+}
+.nav-profile-info-icon{
+    width: 20px;
+}
+.sidebar-small-button{
+    display: none !important;
+}
+@media only screen and (max-width: 1200px) {
+    .col-3 nav{
+        width: max-content;
+    }
+    .nav-profile-info,
+    .nav-profile-info-icon {
+      display: none;
+    }
+    .nav-profile-item{
+        display: flex;
+        width: 55px;
+        height: 55px;
+    }
+    .sidebar-small-button{
+        display: block !important;
+    }
+    .sidebar-tweet-button{
+        display: none !important;
+    }
+
 }
