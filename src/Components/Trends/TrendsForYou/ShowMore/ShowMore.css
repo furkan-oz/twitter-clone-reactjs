@@ -1,8 +1,0 @@
-.show-more{
-    border-radius: 0px 0px 16px 16px;
-    color: #1d9bf0;
-}
-.show-more:hover{
-    background-color: rgba(0, 0, 0, 0.03);
-    cursor: pointer;
-}
