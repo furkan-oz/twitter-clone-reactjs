@@ -7,7 +7,7 @@
     height: 48px;
 }
 .tweet-profile-photo img:hover{
-    opacity: 0.50;
+    filter: brightness(0.8) grayscale(0.2) contrast(1.2);
 }
 .tweet-area{
     width: 85%;
@@ -42,20 +42,20 @@
     width: 16px;
     fill: #1d9bf0;
 }
-.tweet-icon-item{
+.send-tweet-icon-item{
     width: 30px;
     height: 30px;
     cursor: pointer;
     margin-right: 5px;
 }
-.tweet-icon-item:hover{
+.send-tweet-icon-item:hover{
     background-color: rgba(29, 155, 240, 0.10);
 }
-.tweet-icon{
+.send-tweet-icon{
     width: 20px;
     margin: auto;
 }
-.tweet-icon svg{
+.send-tweet-icon svg{
     width: 20px;
     fill: #1d9bf0;
 }
