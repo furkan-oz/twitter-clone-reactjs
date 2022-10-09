@@ -4,7 +4,7 @@ const Bookmarks = () => {
     document.title = "Bookmarks / Twitter";
 
     return(
-        <div className="bookmarks border h-100 w-100">
+        <div className="bookmarks border min-vh-100 w-100">
             <div className="bookmarks-header mt-1 ms-3">
                 <div className="fw-bold fs-5">Bookmarks</div>
                 <div className="bookmarks-nickname text-secondary">@frkan_oz</div>
