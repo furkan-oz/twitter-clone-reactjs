@@ -1,0 +1,114 @@
+.tweet-container:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+.tweet-profile-name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tweet-time:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tweet-icon-item{
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    fill: gray;
+}
+.tweet-icon-item:hover{
+    fill: #1d9bf0;
+    background-color: rgba(29, 155, 240, 0.10);
+}
+.tweet-more-icon{
+    width: 20px;
+}
+.tweet-comment{
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+}
+.tweet-comment:hover{
+    color: #1d9bf0;
+}
+.comment-icon-item{
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    fill: gray;
+}
+.comment-icon-item:hover{
+    fill: #1d9bf0;
+    background-color: rgba(29, 155, 240, 0.10);
+}
+.comment-icon{
+    width: 20px;
+}
+.comment-icon:hover{
+    width: 20px;
+}
+.tweet-retweet{
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+}
+.tweet-retweet:hover{
+    color: #00ba7c;
+}
+.retweet-icon-item{
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    fill: gray;
+}
+.retweet-icon-item:hover{
+    fill: #00ba7c;
+    background-color: rgba(0, 186, 124, 0.10);
+}
+.retweet-icon{
+    width: 20px;
+}
+.retweet-icon:hover{
+    width: 20px;
+}
+.tweet-like{
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+}
+.tweet-like:hover{
+    color: #f91880;
+}
+.like-icon-item{
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    fill: gray;
+}
+.like-icon-item:hover{
+    fill: #f91880;
+    background-color: rgba(249, 24, 128, 0.10);
+}
+.like-icon{
+    width: 20px;
+}
+.like-icon:hover{
+    width: 20px;
+}
+.share-icon-item{
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    fill: gray;
+    cursor: pointer;
+}
+.share-icon-item:hover{
+    fill: #1d9bf0;
+    background-color: rgba(29, 155, 240, 0.10);
+}
+.share-icon{
+    width: 20px;
+}
+.share-icon:hover{
+    width: 20px;
+}
