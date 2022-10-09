@@ -1,14 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import Icons from "../../Components/Icons/Icons";
 import NewList from "../../Components/NewList/NewList";
 import './Lists.css';
 
 const Lists = () => {
     document.title = "Lists / Twitter";
+    const navigate = useNavigate();
 
     return(
-        <div className="lists w-100 h-100 border-start border-end">
+        <div className="lists w-100 min-vh-100 border-start border-end">
             <div className="lists-header d-flex mt-1">
-                <div className="list-icon-item mt-auto mb-auto rounded-pill ms-3">
+                <div onClick={() => navigate(-1)} className="list-icon-item mt-auto mb-auto rounded-pill ms-3">
                     <div className="list-icon m-auto">
                         <Icons iconName={"back"}/>
                     </div>
