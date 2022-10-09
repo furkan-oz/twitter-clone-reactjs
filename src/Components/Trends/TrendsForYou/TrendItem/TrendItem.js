@@ -1,6 +1,6 @@
 import Icons from "../../../Icons/Icons";
 import './TrendItem.css'
-const TrendItem = () => {
+const TrendItem = (props) => {
     return (
         <div className="trend-item position-relative p-3">
             <div className="icon-item rounded-pill position-absolute">
@@ -9,9 +9,9 @@ const TrendItem = () => {
                 </div>
             </div>
             <div className="d-flex flex-column">
-                <div className="about-item text-secondary">Music · Trending</div>
-                <div className="name-item fw-bold">#Eminem</div>
-                <div className="tweet-count text-secondary">13.3K Tweets</div>
+                <div className="about-item text-secondary">{props.trendAbout}</div>
+                <div className="name-item fw-bold">#{props.trendName}</div>
+                <div className="tweet-count text-secondary">{props.trendCount}</div>
             </div>
         </div>
     )
