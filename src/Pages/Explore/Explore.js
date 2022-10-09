@@ -19,8 +19,8 @@ const Explore = () => {
             </div>
             <div className='position-relative'>
                 <img className='explore-image w-100' src="https://pbs.twimg.com/semantic_core_img/1255910073831788550/xm0-QtpW?format=jpg&name=small" alt="" />
-                <div className='position-absolute bottom-0 start-0 mb-4 pb-3 ms-3 text-white '>Event · LIVE</div>
-                <div className='position-absolute bottom-0 start-0 mb-2 ms-3 text-white fw-bold fs-4'>Updates on the COVID-19 situation in Turkey</div>
+                <div className='explore-text position-absolute mb-4 pb-3 ms-3 text-white '>Event · LIVE</div>
+                <div className='explore-header-text position-absolute mb-2 ms-3 text-white fw-bold fs-4'>Updates on the COVID-19 situation in Turkey</div>
             </div>
             <div className='border-top border-bottom'>
                 <TrendsForYou borderRadius={"0px"} width={"100%"}/>
