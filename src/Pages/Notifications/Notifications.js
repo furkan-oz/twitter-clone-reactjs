@@ -6,7 +6,7 @@ const Notifications = () => {
     document.title = "Notifications / Twitter";
     const location = useLocation();
     return(
-        <div className="border-start border-end h-100 w-100">
+        <div className="border-start border-end min-vh-100 w-100">
             <div className="border-bottom d-flex flex-column">
                 <div className="d-flex justify-content-between">
                     <div className="notification-header fw-bold ms-3 my-3">Notifications</div>
