@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import Buttons from "../../Components/Button/Buttons";
 import Icons from "../../Components/Icons/Icons";
 import WhoFollow from "../../Components/WhoFollow/WhoFollow";
@@ -6,12 +6,13 @@ import "./Profile.css"
 
 const Profile = () => {
     document.title = "Profile / Twitter";
+    const navigate = useNavigate();
     const location = useLocation();
 
     return(
-        <div className="border-start border-end w-100 h-100">
+        <div className="border-start border-end w-100 min-vh-100">
             <div className="profile-header d-flex pt-1 sticky-top">
-                <div className="profile-icon-item mt-auto mb-auto rounded-pill ms-3">
+                <div onClick={() => navigate(-1)} className="profile-icon-item mt-auto mb-auto rounded-pill ms-3">
                     <div className="profile-icon m-auto">
                         <Icons iconName={"back"}/>
                     </div>
@@ -27,7 +28,7 @@ const Profile = () => {
                 </div>
                 <div className="profile-background position-relative position-absolute top-75 translate-middle bg-white rounded-circle">
                     <div className="profile-photo position-absolute top-50 start-50 translate-middle">
-                        <img className="rounded-circle" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png" alt="" />
+                        <img className="rounded-circle" src="https://pbs.twimg.com/profile_images/1491040091413823488/Hn1NBVdm_400x400.jpg" alt="" />
                     </div>
                 </div>
                 <div className="profile-info position-relative">
@@ -41,9 +42,9 @@ const Profile = () => {
                             <div className="join-date-icon d-inline-block me-1">
                                 <Icons iconName={"date"}/>
                             </div>
-                             Joined September 2022</div>
+                             Joined April 2014</div>
                         <div className="d-flex mt-2 text-secondary">
-                            <div className="me-2"><b className="text-black">6</b> Following</div>
+                            <div className="me-2"><b className="text-black">0</b> Following</div>
                             <div><b className="text-black">0</b> Followers</div>
                         </div>
                     </div>

@@ -51,6 +51,10 @@
     top: -35px;
     right: 16px;
 }
+.profile-nav a{
+    width: 33%;
+    font-size: 14px;
+}
 .profile-nav-item:hover{
     background-color: rgba(15, 20, 25, 0.10);
     cursor: pointer;
