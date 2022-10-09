@@ -50,7 +50,7 @@ const Icons = (props) => {
         case 'more':
             return <MoreIcon/>
         case 'search':
-            return <SearchIcon/>
+            return <SearchIcon active={props.active}/>
         case 'noCircleMore':
             return <NoCircleMoreIcon/>
         case 'homeSettings':
