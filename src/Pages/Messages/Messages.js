@@ -6,8 +6,8 @@ const Messages = () => {
     document.title = "Messages / Twitter";
 
     return(
-        <div className="d-flex border-start border-end h-100 w-100">
-            <div className="messages border-end h-100 w-100">
+        <div className="d-flex border-start border-end min-vh-100 w-100">
+            <div className="messages border-end w-100">
                 <div className="d-flex">
                     <div className="messages-header flex-grow-1 fw-bold ms-3 my-3">Messages</div>
                     <div className="settings-icon-item mt-auto mb-auto rounded-pill">
